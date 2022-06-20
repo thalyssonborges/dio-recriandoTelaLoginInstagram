@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+:root{
+    --font-text-normal: 15px;
+    --font-text-small-1: 12px;
+    --font-text-small-2: 13px;
+    --font-text-small-3: 14px;
+    --color-text-black: #000;
+    --color-text-blue: #385185;
+
+}
+.principal{ 
+    width: 100%;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 70px;
+}
+.containerGeral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-instagramImagem{
+    display: flex;
+    max-height: 100%;
+    padding-right: 7px;
+    padding-top: 7px;
+    
+}
+.container-instagramImagem img{
+    height: 580px;
+    width: 100%;
+}
+/*----------------------------------------------------- */
+/* Animation */
+.galeria{
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 26px;
+}
+.fotosContainer{
+    width: 250px;
+}
+.fotosContainer img{
+    height: 535px;
+    width: 100%;
+    position: absolute;
+}
+.img-order1{
+    animation: fade1 15s infinite;
+    -webkit-animation: fade1 15s infinite;
+}
+.img-order2{
+    animation: fade2 15s infinite;
+    -webkit-animation: fade2 15s infinite;
+}
+.img-order3{
+    animation: fade3 15s infinite;
+    -webkit-animation: fade3 15s infinite;
+}
+.img-order4{
+    animation: fade4 15s infinite;
+    -webkit-animation: fade4 15s infinite;
+}
+.img-order5{
+    animation: fade5 15s infinite;
+    -webkit-animation: fade5 15s infinite;
+}
+
+ @keyframes fade1 {
+	0% {
+		opacity: 1;
+	}
+	20% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 0;
+	}
+    80% {
+		opacity: 0;
+	}
+    100% {
+		opacity: 0;
+	}
+}
+
+@keyframes fade2 {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 1;
+	}
+	60% {
+		opacity: 0;
+	}
+    80% {
+		opacity: 0;
+	}
+    100% {
+		opacity: 0;
+	}
+}
+
+@keyframes fade3 {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 1;
+	}
+    80% {
+		opacity: 0;
+	}
+    100% {
+		opacity: 0;
+	}
+}
+
+@keyframes fade4 {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 0;
+	}
+    80% {
+		opacity: 1;
+	}
+    100% {
+		opacity: 0;
+	}
+}
+
+@keyframes fade5 {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 0;
+	}
+    80% {
+		opacity: 0;
+	}
+    100% {
+		opacity: 1;
+	}
+}
+
+/*----------------------------------------------------- */
+
+
+.container-instagramAcesso{
+   text-align: center;
+   margin-top: 50px;
+   margin-left: 16px;
+}
+.bloco{
+    padding: 20px 45px;
+    border: 1px solid rgb(219, 219, 219);
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 348px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    
+}
+.bloco1-acesso{
+
+}
+.logo-instagram{
+    margin: 23px 0 30px 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+
+}
+form input{
+    padding: 11px 8px;
+    margin-bottom: 10px;
+    font-size: var(--font-text-small-2);
+    border: 1px solid rgba(219, 219, 219, 0.747);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: rgba(219, 219, 219, 0.15);
+}
+form input:focus{
+    outline: none;
+    border:  1px solid rgba(0, 0, 0, 0.25);
+}
+form input::placeholder{
+    color: rgb(150, 142, 142);
+}
+form button{
+    margin-top: 10px;
+    padding: 6px 10px;
+    width: 270px;
+    color: white;
+    font-weight: 500;
+    font-size: var(--font-text-normal);
+    background-color: #0099ff49;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 5px;
+}
+
+.separacao{
+    width: 270px;
+    margin: 14px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.traco{
+    width: 105px;
+    height: 1px;
+    background-color: rgb(219, 219, 219);
+}
+.separacao-OU{
+    color: rgb(133, 130, 130);
+    font-size: var(--font-text-small-1);
+    font-weight: 500;
+}
+
+.entrarFacebook{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.entrarFacebook a{
+    text-decoration: none;
+    font-size: var(--font-text-normal);
+    color: var(--color-text-blue);
+}
+.entrarFacebook svg{
+    margin-right: 8px;
+}
+.esqueceuSenha{
+    margin-top: 20px;
+}
+.esqueceuSenha a{
+    text-decoration: none;
+    font-size: var(--font-text-small-2);
+    color: var(--color-text-blue)
+}
+.bloco2-cadastro{
+    color: rgba(0, 0, 0, 0.76); 
+    font-size: var(--font-text-normal);
+}
+.bloco2-cadastro a{
+    color: #0099ffbd;
+    font-weight: 600;
+    text-decoration: none;
+}
+.bloco3-apps{
+    padding-top: 10px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.appsContainer{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.appsContainer img{
+    width: 136px;
+    margin: 0 3px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    font-size: var(--font-text-small-2);
+    padding-top: 110px;
+    padding-bottom: 50px;
+    max-height: 100%;
+    
+}
+.footer1, .footer2, .copy{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.footer1 div, .footer2 div{
+    margin: 5px 7px;
+    color: rgba(133, 130, 130, 0.8)
+}
+.copy{
+    margin-top: 16px;
+}
+.copy div{
+    margin: 0px 10px;
+    color: rgba(133, 130, 130, 0.8);
+    font-size: var(--font-text-small-3);
+}
+.copy div a{
+    text-decoration: none;
+    color: rgba(133, 130, 130, 0.8);
+}
+.copy div a:visited{
+    color: rgba(133, 130, 130, 0.123);
+}
+
+
+@media(max-width: 975px){
+    .container-instagramImagem{
+        display: none;
+    }
+}
