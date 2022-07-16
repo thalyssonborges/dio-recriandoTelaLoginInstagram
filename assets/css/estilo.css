@@ -356,6 +356,7 @@ footer{
         padding-top: 10px;
     }
 }
+
 @media(max-width:436px){
     .bloco{
         border: none;
