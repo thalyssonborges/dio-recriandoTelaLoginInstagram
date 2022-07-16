@@ -336,7 +336,6 @@ footer{
     color: rgba(133, 130, 130, 0.123);
 }
 
-
 @media(max-width: 975px){
     .principal{
         height: 100vh;
@@ -356,7 +355,6 @@ footer{
     footer{
         padding-top: 10px;
     }
-
 }
 @media(max-width:436px){
     .bloco{
